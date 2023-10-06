@@ -1,0 +1,95 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.75rem;
+  width: 575px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Fraunces", serif;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+img {
+  width: 300px;
+  height: 450px;
+  display: flex;
+  border-top-left-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+}
+
+.top-descrip {
+  text-transform: uppercase;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 5px;
+  font-size: 12px;
+}
+
+.text {
+  padding: 25px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.prices-new {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+.prices {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.prices-before {
+  color: #3c8067;
+}
+p {
+  color: hsl(228, 12%, 48%);
+}
+button {
+  padding: 13px;
+  border-radius: 8px;
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  font-weight: 750;
+  font-family: "Montserrat";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+button:hover {
+  background-color: #275343;
+}
+
+.cart {
+  height: 20px;
+  width: 20px;
+  filter: invert(1);
+}
